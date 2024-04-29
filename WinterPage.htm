@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <title>Links website</title>
+    <style>
+
+      body {
+          background-image: url(https://i.pinimg.com/originals/ee/4c/a5/ee4ca5361ecd8e865a1241f85d355270.gif); /* The image used for background*/
+          background-repeat: no-repeat; /* Do not repeat the image */
+          background-position: center; /* Center the image */
+          background-size: cover; /* Resize the background image to cover the entire container */
+      }
+
+      .container {
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+      }
+
+      .image-container {
+        text-align: center;
+        width: 100%;
+      }
+
+      .links-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+      }
+
+      .link {
+        min-width: 50% !important;
+      }
+
+      @media (min-width: 1200px) {
+        .container {
+          max-width: 1140px;
+        }
+      }
+      @media (min-width: 992px) {
+        .container {
+          max-width: 960px;
+        }
+      }
+      @media (min-width: 768px) {
+      .container {
+          max-width: 720px;
+        }
+
+      .link {
+          width: 100%;
+        }
+      }
+      @media (min-width: 576px) {
+      .container {
+          max-width: 540px;
+        }
+      }
+
+      .w3-purple, .w3-hover-purple:hover {
+        color: #fff!important;
+        background-color: rgba(156, 39, 176, 0.6) !important;
+      }
+
+    </style>
+  </head>
+
+  <body class="w3-white">
+    <!-- Content container -->
+    <div class="container">
+      <!-- Image and name container. Change to your picture here. -->
+      <div class="image-container">
+        <img
+          src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/cbdc96fb-4f4c-45a9-8d25-6e8a988b5762/d66wrth-df70aa78-c842-4c4a-a006-542195293a69.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2NiZGM5NmZiLTRmNGMtNDVhOS04ZDI1LTZlOGE5ODhiNTc2MlwvZDY2d3J0aC1kZjcwYWE3OC1jODQyLTRjNGEtYTAwNi01NDIxOTUyOTNhNjkuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.CjpPxrAPVoUnizDi_hBJTSTvmrZB12Wyvrq1G0ZzJPQ"
+          class="w3-margin"
+          alt="Person"
+          max-width="100%"
+          height="150px"
+          style="border-radius: 50%"
+        />
+        <div class="w3-text-white">
+          <p class="w3-text-white w3-large"> Welcome to the Summer site!
+          </p>
+          <p class="w3-large"><strong>Fun fact: It is possible to fry eggs on a sidewalk.</strong></p>
+        </div>
+
+        <!-- Links section 1. Replace the # inside of the "" with your links. -->
+        <div class="links-container">
+          <a href="https://seasonwebsite.w3spaces.com/index.html" class="w3-button w3-hover-pink w3-large w3-round w3-black w3-border link" target="_blank"><i class="fab fa-facebook"></i>Main Menu</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer. This section contains an ad for W3Schools Spaces. You can leave it to support us. -->
+    <footer class="w3-container w3-center w3-margin-top w3-margin-bottom w3-padding-top-48">
+      <a class="w3-margin-bottom" href="FacePage.htm" title="This website was made with W3schools Spaces. Make your own free website today!" target="_self"> <img src="https://media1.giphy.com/media/de00p0SCuCO5ccxMvB/giphy.gif?cid=6c09b952o33avl4vrpdbksuc6y51011kfo6pshrq7txkp0b5&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=s" width="50" height="50">
+      </a> 
+    <!-- End footer -->
+    </footer>
+
+  </body>
+</html>
